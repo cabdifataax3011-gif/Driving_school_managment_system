@@ -1,4 +1,4 @@
-# Driving School Management System
+﻿# Driving School Management System
 
 A simple Windows Forms application written in C# targeting `.NET Framework 4.7.2` that helps manage common driving school tasks. The app provides user authentication and a basic dashboard for managing students, instructors, lesson schedules, payments, and tracking student progress.
 
