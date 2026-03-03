@@ -1,0 +1,13 @@
+C:\Users\pc\source\repos\Driving school managment system\Driving school managment system\obj\Debug\Driving school managment system.csproj.AssemblyReference.cache
+C:\Users\pc\source\repos\Driving school managment system\Driving school managment system\obj\Debug\Driving_school_managment_system.Splash.resources
+C:\Users\pc\source\repos\Driving school managment system\Driving school managment system\obj\Debug\Driving_school_managment_system.Login.resources
+C:\Users\pc\source\repos\Driving school managment system\Driving school managment system\obj\Debug\Driving_school_managment_system.Properties.Resources.resources
+C:\Users\pc\source\repos\Driving school managment system\Driving school managment system\obj\Debug\Driving school managment system.csproj.GenerateResource.cache
+C:\Users\pc\source\repos\Driving school managment system\Driving school managment system\obj\Debug\Driving school managment system.csproj.CoreCompileInputs.cache
+C:\Users\pc\source\repos\Driving school managment system\Driving school managment system\bin\Debug\Driving school managment system.exe.config
+C:\Users\pc\source\repos\Driving school managment system\Driving school managment system\bin\Debug\Driving school managment system.exe
+C:\Users\pc\source\repos\Driving school managment system\Driving school managment system\bin\Debug\Driving school managment system.pdb
+C:\Users\pc\source\repos\Driving school managment system\Driving school managment system\obj\Debug\Driving school managment system.exe
+C:\Users\pc\source\repos\Driving school managment system\Driving school managment system\obj\Debug\Driving school managment system.pdb
+C:\Users\pc\source\repos\Driving school managment system\Driving school managment system\obj\Debug\Driving_school_managment_system.Fpassword.resources
+C:\Users\pc\source\repos\Driving school managment system\Driving school managment system\obj\Debug\Driving_school_managment_system.Dash.resources

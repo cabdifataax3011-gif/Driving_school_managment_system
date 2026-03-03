@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A07DEBCA-9149-46C7-B8E4-806939FD942F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Driving_school_managment_system</RootNamespace>
+    <AssemblyName>Driving school managment system</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Dash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dash.Designer.cs">
+      <DependentUpon>Dash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fpassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fpassword.Designer.cs">
+      <DependentUpon>Fpassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="from1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="from1.Designer.cs">
+      <DependentUpon>from1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Dash.resx">
+      <DependentUpon>Dash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fpassword.resx">
+      <DependentUpon>Fpassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="from1.resx">
+      <DependentUpon>from1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Driving.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\27259246_7025936.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-exit.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thanit2022february_16.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close-up-delivery-man-checking-trip-details-phone.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pin code Password Protection, Secure Login animation.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-exit1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Profile.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\personal-data.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Forgot Password.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3293466.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\32934661.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7025936.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7779606.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Close_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\copy_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Driving1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\knowledge_sharingg_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logout_32px copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maximize_button_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minus_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\registration_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\steering_wheel_80px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\student_male_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\training_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minus_32px1.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
