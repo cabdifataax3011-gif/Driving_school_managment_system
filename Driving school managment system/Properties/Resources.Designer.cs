@@ -163,6 +163,16 @@ namespace Driving_school_managment_system.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap edit_property_32px {
+            get {
+                object obj = ResourceManager.GetObject("edit_property_32px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Forgot_Password {
             get {
                 object obj = ResourceManager.GetObject("Forgot Password", resourceCulture);
@@ -283,9 +293,29 @@ namespace Driving_school_managment_system.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap print_32px {
+            get {
+                object obj = ResourceManager.GetObject("print_32px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Profile {
             get {
                 object obj = ResourceManager.GetObject("Profile", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Refresh_32px {
+            get {
+                object obj = ResourceManager.GetObject("Refresh_32px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

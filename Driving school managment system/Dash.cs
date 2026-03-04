@@ -55,26 +55,35 @@ namespace Driving_school_managment_system
         private void btnDash_Click(object sender, EventArgs e)
         {
             moveIt(sender);
+            lblform.Text = "Dashboard";
         }
 
         private void btnStudent_Click(object sender, EventArgs e)
         {
             moveIt(sender);
+            lblform.Text = "Student";
+            pnlContianer.Controls.Clear();
+            uc_Student st = new uc_Student();
+            st.Dock = DockStyle.Fill;
+            pnlContianer.Controls.Add(st);
         }
 
         private void btnIntructors_Click(object sender, EventArgs e)
         {
             moveIt(sender);
+            lblform.Text = "Intructors";
         }
 
         private void btncourses_Click(object sender, EventArgs e)
         {
             moveIt(sender);
+            lblform.Text = "Courses";
         }
 
         private void btnExrollments_Click(object sender, EventArgs e)
         {
             moveIt(sender);
+            lblform.Text = "Exrollments";
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -83,6 +92,11 @@ namespace Driving_school_managment_system
         }
 
         private void pictureBox6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pnlContianer_Paint(object sender, PaintEventArgs e)
         {
 
         }

@@ -29,28 +29,29 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.panel10 = new System.Windows.Forms.Panel();
+            this.btnExrollments = new System.Windows.Forms.Button();
+            this.btncourses = new System.Windows.Forms.Button();
+            this.btnIntructors = new System.Windows.Forms.Button();
+            this.btnStudent = new System.Windows.Forms.Button();
+            this.btnDash = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.button3 = new System.Windows.Forms.Button();
+            this.lblform = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.Dashbourd = new System.Windows.Forms.PictureBox();
-            this.btnDash = new System.Windows.Forms.Button();
-            this.btnStudent = new System.Windows.Forms.Button();
-            this.btnIntructors = new System.Windows.Forms.Button();
-            this.btncourses = new System.Windows.Forms.Button();
-            this.btnExrollments = new System.Windows.Forms.Button();
-            this.panel10 = new System.Windows.Forms.Panel();
-            this.panel6 = new System.Windows.Forms.Panel();
+            this.pnlContianer = new System.Windows.Forms.Panel();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.panel9 = new System.Windows.Forms.Panel();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
+            this.Dashbourd = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.panel8 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
@@ -67,10 +68,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Dashbourd)).BeginInit();
-            this.panel6.SuspendLayout();
+            this.pnlContianer.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.panel9.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Dashbourd)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.panel8.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
@@ -99,6 +100,110 @@
             this.panel1.Size = new System.Drawing.Size(341, 785);
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // panel10
+            // 
+            this.panel10.BackColor = System.Drawing.Color.Blue;
+            this.panel10.Location = new System.Drawing.Point(19, 258);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(13, 50);
+            this.panel10.TabIndex = 6;
+            // 
+            // btnExrollments
+            // 
+            this.btnExrollments.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(9)))), ((int)(((byte)(5)))));
+            this.btnExrollments.FlatAppearance.BorderColor = System.Drawing.Color.Blue;
+            this.btnExrollments.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnExrollments.Font = new System.Drawing.Font("Cambria", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExrollments.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnExrollments.Image = global::Driving_school_managment_system.Properties.Resources.registration_32px;
+            this.btnExrollments.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnExrollments.Location = new System.Drawing.Point(36, 550);
+            this.btnExrollments.Name = "btnExrollments";
+            this.btnExrollments.Size = new System.Drawing.Size(289, 50);
+            this.btnExrollments.TabIndex = 6;
+            this.btnExrollments.Text = "Exrollments";
+            this.btnExrollments.UseVisualStyleBackColor = false;
+            this.btnExrollments.Click += new System.EventHandler(this.btnExrollments_Click);
+            // 
+            // btncourses
+            // 
+            this.btncourses.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(9)))), ((int)(((byte)(5)))));
+            this.btncourses.FlatAppearance.BorderColor = System.Drawing.Color.Blue;
+            this.btncourses.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btncourses.Font = new System.Drawing.Font("Cambria", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btncourses.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btncourses.Image = global::Driving_school_managment_system.Properties.Resources.knowledge_sharingg_32px;
+            this.btncourses.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btncourses.Location = new System.Drawing.Point(36, 477);
+            this.btncourses.Name = "btncourses";
+            this.btncourses.Size = new System.Drawing.Size(289, 50);
+            this.btncourses.TabIndex = 6;
+            this.btncourses.Text = "Courses";
+            this.btncourses.UseVisualStyleBackColor = false;
+            this.btncourses.Click += new System.EventHandler(this.btncourses_Click);
+            // 
+            // btnIntructors
+            // 
+            this.btnIntructors.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(9)))), ((int)(((byte)(5)))));
+            this.btnIntructors.FlatAppearance.BorderColor = System.Drawing.Color.Blue;
+            this.btnIntructors.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnIntructors.Font = new System.Drawing.Font("Cambria", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnIntructors.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnIntructors.Image = global::Driving_school_managment_system.Properties.Resources.training_32px;
+            this.btnIntructors.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnIntructors.Location = new System.Drawing.Point(36, 404);
+            this.btnIntructors.Name = "btnIntructors";
+            this.btnIntructors.Size = new System.Drawing.Size(289, 50);
+            this.btnIntructors.TabIndex = 6;
+            this.btnIntructors.Text = "Intructors";
+            this.btnIntructors.UseVisualStyleBackColor = false;
+            this.btnIntructors.Click += new System.EventHandler(this.btnIntructors_Click);
+            // 
+            // btnStudent
+            // 
+            this.btnStudent.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(9)))), ((int)(((byte)(5)))));
+            this.btnStudent.FlatAppearance.BorderColor = System.Drawing.Color.Blue;
+            this.btnStudent.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnStudent.Font = new System.Drawing.Font("Cambria", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnStudent.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnStudent.Image = global::Driving_school_managment_system.Properties.Resources.student_male_32px;
+            this.btnStudent.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnStudent.Location = new System.Drawing.Point(36, 331);
+            this.btnStudent.Name = "btnStudent";
+            this.btnStudent.Size = new System.Drawing.Size(289, 50);
+            this.btnStudent.TabIndex = 6;
+            this.btnStudent.Text = "Students";
+            this.btnStudent.UseVisualStyleBackColor = false;
+            this.btnStudent.Click += new System.EventHandler(this.btnStudent_Click);
+            // 
+            // btnDash
+            // 
+            this.btnDash.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(9)))), ((int)(((byte)(5)))));
+            this.btnDash.FlatAppearance.BorderColor = System.Drawing.Color.Blue;
+            this.btnDash.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDash.Font = new System.Drawing.Font("Cambria", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDash.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnDash.Image = global::Driving_school_managment_system.Properties.Resources.home_32px;
+            this.btnDash.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDash.Location = new System.Drawing.Point(36, 258);
+            this.btnDash.Name = "btnDash";
+            this.btnDash.Size = new System.Drawing.Size(289, 50);
+            this.btnDash.TabIndex = 6;
+            this.btnDash.Text = "Dashboard";
+            this.btnDash.UseVisualStyleBackColor = false;
+            this.btnDash.Click += new System.EventHandler(this.btnDash_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Century", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.label1.Location = new System.Drawing.Point(191, 48);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(141, 78);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "School \r\nDriving\r\n";
             // 
             // pictureBox2
             // 
@@ -136,12 +241,62 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(125)))), ((int)(((byte)(13)))));
             this.panel3.Controls.Add(this.button3);
+            this.panel3.Controls.Add(this.lblform);
             this.panel3.Controls.Add(this.button2);
             this.panel3.Controls.Add(this.button1);
             this.panel3.Location = new System.Drawing.Point(341, 7);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(1168, 50);
             this.panel3.TabIndex = 2;
+            // 
+            // button3
+            // 
+            this.button3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Image = global::Driving_school_managment_system.Properties.Resources.minus_32px1;
+            this.button3.Location = new System.Drawing.Point(1025, 6);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(35, 35);
+            this.button3.TabIndex = 0;
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // lblform
+            // 
+            this.lblform.AutoSize = true;
+            this.lblform.Font = new System.Drawing.Font("Cambria", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblform.Location = new System.Drawing.Point(24, 14);
+            this.lblform.Name = "lblform";
+            this.lblform.Size = new System.Drawing.Size(131, 27);
+            this.lblform.TabIndex = 0;
+            this.lblform.Text = "Dashbourd";
+            // 
+            // button2
+            // 
+            this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Image = global::Driving_school_managment_system.Properties.Resources.maximize_button_32px;
+            this.button2.Location = new System.Drawing.Point(1079, 6);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(35, 35);
+            this.button2.TabIndex = 0;
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button1
+            // 
+            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Image = global::Driving_school_managment_system.Properties.Resources.icons8_exit;
+            this.button1.Location = new System.Drawing.Point(1129, 6);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(35, 35);
+            this.button1.TabIndex = 0;
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // panel4
             // 
@@ -161,177 +316,22 @@
             this.panel5.Size = new System.Drawing.Size(10, 775);
             this.panel5.TabIndex = 1;
             // 
-            // label1
+            // pnlContianer
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.label1.Location = new System.Drawing.Point(191, 48);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(144, 80);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "School \r\nDriving\r\n";
-            // 
-            // button1
-            // 
-            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Image = global::Driving_school_managment_system.Properties.Resources.icons8_exit;
-            this.button1.Location = new System.Drawing.Point(1129, 6);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(35, 35);
-            this.button1.TabIndex = 0;
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // button2
-            // 
-            this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Image = global::Driving_school_managment_system.Properties.Resources.maximize_button_32px;
-            this.button2.Location = new System.Drawing.Point(1079, 6);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(35, 35);
-            this.button2.TabIndex = 0;
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // button3
-            // 
-            this.button3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Image = global::Driving_school_managment_system.Properties.Resources.minus_32px1;
-            this.button3.Location = new System.Drawing.Point(1025, 6);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(35, 35);
-            this.button3.TabIndex = 0;
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
-            // 
-            // Dashbourd
-            // 
-            this.Dashbourd.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.Dashbourd.Image = global::Driving_school_managment_system.Properties.Resources._7779606;
-            this.Dashbourd.Location = new System.Drawing.Point(342, 255);
-            this.Dashbourd.Name = "Dashbourd";
-            this.Dashbourd.Size = new System.Drawing.Size(1165, 518);
-            this.Dashbourd.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.Dashbourd.TabIndex = 3;
-            this.Dashbourd.TabStop = false;
-            this.Dashbourd.Click += new System.EventHandler(this.Dashbourd_Click);
-            // 
-            // btnDash
-            // 
-            this.btnDash.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(9)))), ((int)(((byte)(5)))));
-            this.btnDash.FlatAppearance.BorderColor = System.Drawing.Color.Blue;
-            this.btnDash.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDash.Font = new System.Drawing.Font("Cambria", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDash.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.btnDash.Image = global::Driving_school_managment_system.Properties.Resources.home_32px;
-            this.btnDash.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnDash.Location = new System.Drawing.Point(36, 258);
-            this.btnDash.Name = "btnDash";
-            this.btnDash.Size = new System.Drawing.Size(289, 50);
-            this.btnDash.TabIndex = 6;
-            this.btnDash.Text = "Dashboard";
-            this.btnDash.UseVisualStyleBackColor = false;
-            this.btnDash.Click += new System.EventHandler(this.btnDash_Click);
-            // 
-            // btnStudent
-            // 
-            this.btnStudent.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(9)))), ((int)(((byte)(5)))));
-            this.btnStudent.FlatAppearance.BorderColor = System.Drawing.Color.Blue;
-            this.btnStudent.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnStudent.Font = new System.Drawing.Font("Cambria", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnStudent.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.btnStudent.Image = global::Driving_school_managment_system.Properties.Resources.student_male_32px;
-            this.btnStudent.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnStudent.Location = new System.Drawing.Point(36, 331);
-            this.btnStudent.Name = "btnStudent";
-            this.btnStudent.Size = new System.Drawing.Size(289, 50);
-            this.btnStudent.TabIndex = 6;
-            this.btnStudent.Text = "Students";
-            this.btnStudent.UseVisualStyleBackColor = false;
-            this.btnStudent.Click += new System.EventHandler(this.btnStudent_Click);
-            // 
-            // btnIntructors
-            // 
-            this.btnIntructors.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(9)))), ((int)(((byte)(5)))));
-            this.btnIntructors.FlatAppearance.BorderColor = System.Drawing.Color.Blue;
-            this.btnIntructors.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnIntructors.Font = new System.Drawing.Font("Cambria", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnIntructors.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.btnIntructors.Image = global::Driving_school_managment_system.Properties.Resources.training_32px;
-            this.btnIntructors.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnIntructors.Location = new System.Drawing.Point(36, 404);
-            this.btnIntructors.Name = "btnIntructors";
-            this.btnIntructors.Size = new System.Drawing.Size(289, 50);
-            this.btnIntructors.TabIndex = 6;
-            this.btnIntructors.Text = "Intructors";
-            this.btnIntructors.UseVisualStyleBackColor = false;
-            this.btnIntructors.Click += new System.EventHandler(this.btnIntructors_Click);
-            // 
-            // btncourses
-            // 
-            this.btncourses.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(9)))), ((int)(((byte)(5)))));
-            this.btncourses.FlatAppearance.BorderColor = System.Drawing.Color.Blue;
-            this.btncourses.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btncourses.Font = new System.Drawing.Font("Cambria", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btncourses.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.btncourses.Image = global::Driving_school_managment_system.Properties.Resources.knowledge_sharingg_32px;
-            this.btncourses.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btncourses.Location = new System.Drawing.Point(36, 477);
-            this.btncourses.Name = "btncourses";
-            this.btncourses.Size = new System.Drawing.Size(289, 50);
-            this.btncourses.TabIndex = 6;
-            this.btncourses.Text = "Courses";
-            this.btncourses.UseVisualStyleBackColor = false;
-            this.btncourses.Click += new System.EventHandler(this.btncourses_Click);
-            // 
-            // btnExrollments
-            // 
-            this.btnExrollments.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(9)))), ((int)(((byte)(5)))));
-            this.btnExrollments.FlatAppearance.BorderColor = System.Drawing.Color.Blue;
-            this.btnExrollments.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnExrollments.Font = new System.Drawing.Font("Cambria", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnExrollments.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.btnExrollments.Image = global::Driving_school_managment_system.Properties.Resources.registration_32px;
-            this.btnExrollments.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnExrollments.Location = new System.Drawing.Point(36, 550);
-            this.btnExrollments.Name = "btnExrollments";
-            this.btnExrollments.Size = new System.Drawing.Size(289, 50);
-            this.btnExrollments.TabIndex = 6;
-            this.btnExrollments.Text = "Exrollments";
-            this.btnExrollments.UseVisualStyleBackColor = false;
-            this.btnExrollments.Click += new System.EventHandler(this.btnExrollments_Click);
-            // 
-            // panel10
-            // 
-            this.panel10.BackColor = System.Drawing.Color.Blue;
-            this.panel10.Location = new System.Drawing.Point(19, 258);
-            this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(13, 50);
-            this.panel10.TabIndex = 6;
-            // 
-            // panel6
-            // 
-            this.panel6.Controls.Add(this.pictureBox7);
-            this.panel6.Controls.Add(this.panel9);
-            this.panel6.Controls.Add(this.pictureBox6);
-            this.panel6.Controls.Add(this.panel8);
-            this.panel6.Controls.Add(this.pictureBox5);
-            this.panel6.Controls.Add(this.panel7);
-            this.panel6.Controls.Add(this.pictureBox4);
-            this.panel6.Controls.Add(this.panel11);
-            this.panel6.Location = new System.Drawing.Point(341, 63);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(1168, 182);
-            this.panel6.TabIndex = 4;
+            this.pnlContianer.Controls.Add(this.pictureBox7);
+            this.pnlContianer.Controls.Add(this.panel9);
+            this.pnlContianer.Controls.Add(this.Dashbourd);
+            this.pnlContianer.Controls.Add(this.pictureBox6);
+            this.pnlContianer.Controls.Add(this.panel8);
+            this.pnlContianer.Controls.Add(this.pictureBox5);
+            this.pnlContianer.Controls.Add(this.panel7);
+            this.pnlContianer.Controls.Add(this.pictureBox4);
+            this.pnlContianer.Controls.Add(this.panel11);
+            this.pnlContianer.Location = new System.Drawing.Point(341, 66);
+            this.pnlContianer.Name = "pnlContianer";
+            this.pnlContianer.Size = new System.Drawing.Size(1168, 703);
+            this.pnlContianer.TabIndex = 4;
+            this.pnlContianer.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlContianer_Paint);
             // 
             // pictureBox7
             // 
@@ -340,21 +340,21 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox7.BackColor = System.Drawing.Color.Maroon;
             this.pictureBox7.Image = global::Driving_school_managment_system.Properties.Resources.registration_32px;
-            this.pictureBox7.Location = new System.Drawing.Point(878, 12);
+            this.pictureBox7.Location = new System.Drawing.Point(881, 12);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(136, 87);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox7.TabIndex = 10;
+            this.pictureBox7.TabIndex = 19;
             this.pictureBox7.TabStop = false;
             // 
             // panel9
             // 
             this.panel9.Controls.Add(this.label9);
             this.panel9.Controls.Add(this.label8);
-            this.panel9.Location = new System.Drawing.Point(864, 43);
+            this.panel9.Location = new System.Drawing.Point(867, 43);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(260, 127);
-            this.panel9.TabIndex = 6;
+            this.panel9.TabIndex = 15;
             // 
             // label9
             // 
@@ -376,6 +376,19 @@
             this.label8.TabIndex = 0;
             this.label8.Text = "Enrolments";
             // 
+            // Dashbourd
+            // 
+            this.Dashbourd.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Dashbourd.Image = global::Driving_school_managment_system.Properties.Resources._7779606;
+            this.Dashbourd.Location = new System.Drawing.Point(0, 176);
+            this.Dashbourd.Name = "Dashbourd";
+            this.Dashbourd.Size = new System.Drawing.Size(1168, 524);
+            this.Dashbourd.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.Dashbourd.TabIndex = 14;
+            this.Dashbourd.TabStop = false;
+            // 
             // pictureBox6
             // 
             this.pictureBox6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -383,22 +396,21 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox6.BackColor = System.Drawing.Color.Fuchsia;
             this.pictureBox6.Image = global::Driving_school_managment_system.Properties.Resources.knowledge_sharingg_32px;
-            this.pictureBox6.Location = new System.Drawing.Point(592, 12);
+            this.pictureBox6.Location = new System.Drawing.Point(595, 12);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(136, 87);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox6.TabIndex = 11;
+            this.pictureBox6.TabIndex = 20;
             this.pictureBox6.TabStop = false;
-            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
             // 
             // panel8
             // 
             this.panel8.Controls.Add(this.label3);
             this.panel8.Controls.Add(this.label2);
-            this.panel8.Location = new System.Drawing.Point(581, 43);
+            this.panel8.Location = new System.Drawing.Point(584, 43);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(260, 127);
-            this.panel8.TabIndex = 7;
+            this.panel8.TabIndex = 16;
             // 
             // label3
             // 
@@ -427,21 +439,21 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox5.BackColor = System.Drawing.Color.ForestGreen;
             this.pictureBox5.Image = global::Driving_school_managment_system.Properties.Resources.training_32px;
-            this.pictureBox5.Location = new System.Drawing.Point(312, 12);
+            this.pictureBox5.Location = new System.Drawing.Point(315, 12);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(136, 87);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox5.TabIndex = 12;
+            this.pictureBox5.TabIndex = 21;
             this.pictureBox5.TabStop = false;
             // 
             // panel7
             // 
             this.panel7.Controls.Add(this.label5);
             this.panel7.Controls.Add(this.label4);
-            this.panel7.Location = new System.Drawing.Point(298, 43);
+            this.panel7.Location = new System.Drawing.Point(301, 43);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(260, 127);
-            this.panel7.TabIndex = 8;
+            this.panel7.TabIndex = 17;
             // 
             // label5
             // 
@@ -470,21 +482,21 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox4.BackColor = System.Drawing.Color.LimeGreen;
             this.pictureBox4.Image = global::Driving_school_managment_system.Properties.Resources.student_male_32px;
-            this.pictureBox4.Location = new System.Drawing.Point(29, 12);
+            this.pictureBox4.Location = new System.Drawing.Point(32, 12);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(136, 87);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 13;
+            this.pictureBox4.TabIndex = 22;
             this.pictureBox4.TabStop = false;
             // 
             // panel11
             // 
             this.panel11.Controls.Add(this.label7);
             this.panel11.Controls.Add(this.label6);
-            this.panel11.Location = new System.Drawing.Point(15, 43);
+            this.panel11.Location = new System.Drawing.Point(18, 43);
             this.panel11.Name = "panel11";
             this.panel11.Size = new System.Drawing.Size(260, 127);
-            this.panel11.TabIndex = 9;
+            this.panel11.TabIndex = 18;
             // 
             // label7
             // 
@@ -512,8 +524,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1517, 785);
-            this.Controls.Add(this.panel6);
-            this.Controls.Add(this.Dashbourd);
+            this.Controls.Add(this.pnlContianer);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel5);
@@ -529,11 +540,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.Dashbourd)).EndInit();
-            this.panel6.ResumeLayout(false);
+            this.panel3.PerformLayout();
+            this.pnlContianer.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.panel9.ResumeLayout(false);
             this.panel9.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Dashbourd)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.panel8.ResumeLayout(false);
             this.panel8.PerformLayout();
@@ -560,18 +572,19 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.PictureBox Dashbourd;
         private System.Windows.Forms.Button btnDash;
         private System.Windows.Forms.Button btnExrollments;
         private System.Windows.Forms.Button btncourses;
         private System.Windows.Forms.Button btnIntructors;
         private System.Windows.Forms.Button btnStudent;
         private System.Windows.Forms.Panel panel10;
-        private System.Windows.Forms.Panel panel6;
+        private System.Windows.Forms.Panel pnlContianer;
+        private System.Windows.Forms.Label lblform;
         private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.Panel panel9;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.PictureBox Dashbourd;
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.Panel panel8;
         private System.Windows.Forms.Label label3;
